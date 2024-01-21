@@ -4,7 +4,7 @@ const TodoApp = () => {
 
 const [search,setSearch] = useState("");
 const [todoArray,setToDoArray] = useState([]);
- console.log(todoArray);
+
 function addTodo(){
   setToDoArray([
     ...todoArray,
